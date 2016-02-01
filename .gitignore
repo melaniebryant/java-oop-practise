@@ -1,0 +1,9 @@
+.bluej
+.txt
+.ctxt
+/package.bluej
+*.bluej
+
+*.TXT
+
+*.ctxt
