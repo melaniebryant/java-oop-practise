@@ -11,12 +11,23 @@ public class Account
         balance = 0;
     }
     
+//     public static double square(double d) {
+//         double squareRoot = d / 2;
+//         double t = squareRoot + 1;
+//         while ((t - squareRoot) != 0) {
+//             t = squareRoot;
+//             squareRoot = (t + (d/t)) / 2;
+//         } 
+//         return squareRoot;
+//     }
+        
     public void deposit (double amount) {
         balance += amount;
     }
     
     public void withdraw (double amount) {
-       if (balance >= amount){
+//        amount = square(amount); //squares
+        if (balance >= amount){
            balance -= amount;
         }
         else {

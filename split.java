@@ -18,7 +18,7 @@ class split
 		//put all into 1 array
 		all = text.split(" ");
 				
-		//separate into correct arrays
+		//separate into message
 		for (int j = 0; j < all.length; j=j+3)
 		{
 			System.out.println("name is " + all[j] + "\t domain1 is " + all[j+1] + "\t domain2 is " + all[j+2]);
