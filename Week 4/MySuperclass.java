@@ -2,7 +2,7 @@
 /**
 MySuperclass
  */
-public  class MySuperclass
+public abstract class MySuperclass
 {
     private String myState;
     

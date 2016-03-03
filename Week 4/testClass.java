@@ -2,7 +2,7 @@
 /**
 testClass
  */
-public class testClass
+public final class testClass
 {
    public static void main(String[] args){
 
@@ -33,6 +33,8 @@ public class testClass
     
     //dynamic binding + substitution principle
     MySuperclass s=(Math.random()>0.5)? s=new MySubclass1():new MySubclass2();
+    
+    MyInterface int1 = new MySubclass2();
     
     }
 }

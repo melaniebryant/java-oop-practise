@@ -2,7 +2,7 @@
 /**
 MySubclass2
  */
-public class MySubclass2 extends MySuperclass {
+public class MySubclass2 extends MySuperclass implements MyInterface {
 
     MySubclass2(){
         super("state subclass 2");
@@ -16,4 +16,6 @@ public class MySubclass2 extends MySuperclass {
     void myBehaviourNotInherited(){
         System.out.println("something my superclass can't do");
     }
+    
+    
 }
